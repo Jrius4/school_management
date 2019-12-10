@@ -1,0 +1,243 @@
+.image-header{
+    transform: scale(0.75);
+}
+/*
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+
+.home-page2{
+
+  background: url('../images/showcase.jpg') no-repeat center/cover;
+  color:#f4f4f4
+}
+.home-page2 h1, p{
+   text-align: center;
+
+}
+
+.service h1{
+   text-align: center;
+} */
+
+.head-text{
+    text-align: left !important;
+}
+
+.service{
+    background:#403D3D;
+    min-height: 450px;
+}
+
+.service h1{
+   color: #f4f4f4;
+}
+
+.friends{
+   text-align: center;
+}
+
+
+.help{
+   color:#143f85
+}
+.touch{
+
+
+  color: #f4f4f4;
+  text-align: center;
+  background: #000000;
+}
+
+#img{
+   padding: 10px;
+}
+
+.btn-default {
+  font-family: Raleway-SemiBold;
+  background: #1b81d9;
+  font-size: 13px;
+  width: 120px;
+  color:#f4f4f4;
+  letter-spacing: 1px;
+  line-height: 2px;
+  border: 2px solid #f4f4f4;
+  border-radius: 40px;
+  transition: all 0.3s ease 0s;
+}
+
+.card-service{
+   background: #000000;
+   height: 300px;
+   width: 250px;
+   color:#f4f4f4;
+  border-radius: 10px;
+}
+.card-service:hover{
+   background: #ffffff;
+   color: black;
+}
+
+.card-service-title{
+   font-size: 1em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+
+.compan{
+  box-shadow: 0px 24px 64px rgba(0,0,0,0.24);
+  border-radius:16px;
+  width:420px;
+  height: 350px;
+}
+
+
+
+/* Smoothing scrolling */
+
+.smoothScroll {
+    text-decoration: none;
+    font-family: Segoe UI;
+    margin: 24px;
+}
+
+.content {
+  margin-top: 100%;
+  margin-bottom: 100%;
+}
+small {
+  margin-left: 24px;
+  color: gray;
+}
+.categories-2{
+    margin-top: 10px !important;
+}
+.bg-light{
+    color: rgb(42, 40, 40) !important;
+}
+.main-navbar-light .active{
+    border-bottom: #006db6 3px solid;
+    color:#006db6;
+    font-weight: bold;
+}
+.main-navbar-blue{
+    background: #006db6 !important;
+}
+.main-navbar-blue .active{
+    border-bottom: #ffffff 3px solid;
+    color:#ffffff;
+    font-weight: bold;
+}
+.btn-quote{
+    width:150px;
+    height:50px;
+color:#fff !important;
+border: #26518a !important;
+}
+.btn-quote-white{
+    border: white;
+    background: white;
+    color: #006db6 !important;
+}
+.btn-quote-white:hover{
+    border: white;
+    background: #d8d8d8;
+    color: #006db6 !important;
+}
+section.divider-2{background-image:linear-gradient(-18deg, rgb(251, 251, 251) 0%, rgb(251, 251, 251) 100%);position:relative;color:#fff}
+section.divider-2::before{content:'';display:block;height:100%;width:100%;height:100%;position:absolute;top:0;right:0;background:url(../../images/imgs/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg) fixed;background-size:cover;background-position:center center;opacity:0}
+section.divider-2 .container{position:relative}
+section.divider-2 h2{text-shadow:1px 1px 1px rgba(0,0,0,0.2)}
+section.divider-2 p.h5{font-weight:300;}
+section.divider-2 hr{max-width:100px;border:2px rgb(37, 113, 235) solid;margin:30px auto}
+section.divider-2 p{font-weight:300}
+.post-life p{
+    color: snow;
+}
+.tilt-section{
+    transform: rotate(-90deg) scale(2);
+    border-bottom: teal 3px solid;
+    padding: 5px;
+    text-align: start;
+}
+.tilt-section h6{
+    color: darkgrey;
+    font-weight: bold;
+}
+
+.contact-card{
+    background-color:#dfdfdf;
+    color: black;
+}
+
+.contact-card h4{
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    margin: 0 auto;
+  }
+ .card .carousel-item {
+    height: 200px;
+  }
+ .card .carousel-caption {
+    padding: 0;
+    right: 0;
+    left: 0;
+    color: #3d3d3d;
+  }
+ .card .carousel-caption h3 {
+    color: #3d3d3d;
+  }
+ .card .carousel-caption p {
+    line-height: 30px;
+  }
+ .card .carousel-caption .col-sm-3 {
+    display: flex;
+    align-items: center;
+  }
+ .card .carousel-caption .col-sm-9 {
+    text-align: left;
+  }
+ .navi a {
+      text-decoration:none;
+  }
+ a > .ico {
+      background-color: grey;
+      padding: 10px;
+
+  }
+ a:hover > .ico {
+      background-color: #666;
+  }
+
+  .img-smallify{
+    transform: scale(0.65);
+}
+.main-footer hr{
+    border: #2793f8ed solid 1px;
+}
+.logo-navbar{
+    transform: scale(0.65);
+}
+
+
+section.hero2{background-image:linear-gradient(-18deg, rgb(55, 121, 195) 0%, rgb(35, 104, 145) 100%);position:relative;color:#fff;}
+section.hero2::before{content:'';display:block;height:100%;width:100%;position:absolute;top:0;right:0;background:url(../../images/imgs/daria-shevtsova-zbWFT4eVopE-unsplash.jpg) fixed;background-size:cover;background-position:center center;opacity:0.2}
+section.hero2 .container{position:relative}
+section.hero2 h2{text-shadow:1px 1px 1px rgba(0,0,0,0.2)}
+section.hero2 p.h5{font-weight:300;font-family:"Roboto",sans-serif}
+section.hero2 hr{max-width:100px;border:2px rgb(37, 113, 235) solid;margin:30px auto}
+section.hero2 p{font-weight:300}
+
